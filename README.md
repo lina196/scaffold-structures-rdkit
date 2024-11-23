@@ -1,6 +1,9 @@
 # scaffold-structures-rdkit
 Search  by SMILES of interest and highlight Scaffolds (Rs)
 
+**Scaffold-Structures-RDKit** is a Python script designed for scaffold and substructure analysis in molecular datasets using **RDKit**. It processes an Excel sheet containing SMILES strings, converting them into molecular objects for visualization. The user can input a SMILES query to search for specific substructures, highlighting matches in the molecules and visualizing the results in a grid. Additionally, the script identifies and highlights dissimilar scaffold regions (Rs) for detailed analysis. The results, including highlighted images and related data, are saved as output files. This tool is ideal for cheminformatics workflows involving scaffold identification and visualization.
+
+
 1. Import Libraries
 ```
 import pandas as pd
